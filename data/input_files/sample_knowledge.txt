@@ -1,0 +1,38 @@
+# Jarvis AI Assistant - Enterprise Knowledge Base
+
+## About Jarvis
+Jarvis is an intelligent AI assistant designed to help users with various tasks, from answering questions to providing technical support. It leverages state-of-the-art language models and efficient knowledge retrieval systems.
+
+## Technical Architecture
+The system uses a combination of:
+- Large Language Models (LLMs) for natural language understanding and generation
+- Vector databases (FAISS) for efficient similarity search
+- Sentence transformers for generating semantic embeddings
+- Streamlit for the user interface
+
+## Key Features
+- Natural language conversation interface
+- Context-aware responses based on conversation history
+- Knowledge base integration for accurate information retrieval
+- Customizable settings (temperature, response length)
+- Session management with chat history
+
+## Use Cases
+1. Customer Support: Answer customer queries quickly and accurately
+2. Technical Documentation: Help developers find relevant code examples and documentation
+3. Learning Assistant: Explain complex concepts in simple terms
+4. Code Review: Provide suggestions and best practices for code
+5. General Assistant: Help with day-to-day tasks and questions
+
+## Best Practices
+- Keep queries clear and specific for better results
+- Use conversation history to build context
+- Provide feedback to improve responses
+- Regularly update the knowledge base with new information
+
+## Security Considerations
+- Never share API keys or sensitive credentials
+- Use environment variables for configuration
+- Implement proper authentication for production deployment
+- Monitor and log all interactions for audit purposes
+- Regular security updates and patches
