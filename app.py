@@ -115,7 +115,7 @@ def render_sidebar():
         st.markdown("### 📋 Menu")
         page = st.radio(
             "Navigation",
-            ["AI Chat Helper", "Statistics", "Settings"],
+            ["Chat", "Statistics", "Settings"],
             label_visibility="collapsed"
         )
         st.markdown('</div>', unsafe_allow_html=True)
@@ -303,7 +303,7 @@ def main():
     current_page = render_sidebar()
     
     # Main chat interface
-    if current_page == "AI Chat Helper":
+    if current_page == "Chat":
         st.markdown('<div class="main-header">💬 Chat with Jarvis</div>', unsafe_allow_html=True)
         
         # Welcome message
